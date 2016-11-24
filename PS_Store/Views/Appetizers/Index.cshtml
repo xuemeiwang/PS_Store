@@ -28,7 +28,8 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.ThumbnailImage)
+            <img src="@Html.DisplayFor(modelItem => item.ThumbnailImage)" alt="" />
+            
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
