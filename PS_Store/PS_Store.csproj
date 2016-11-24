@@ -198,12 +198,20 @@
   <ItemGroup>
     <Content Include="Asset\Images\Beansoup-large.jpg" />
     <Content Include="Asset\Images\Beansoup.jpg" />
+    <Content Include="Asset\Images\Fuqifeipian-large.jpg" />
+    <Content Include="Asset\Images\Fuqifeipian.jpeg" />
     <Content Include="Asset\Images\Hotandsour-large.jpg" />
     <Content Include="Asset\Images\Hotandsour.jpg" />
+    <Content Include="Asset\Images\Koushuichicken-large.jpg" />
+    <Content Include="Asset\Images\Koushuichicken.jpg" />
+    <Content Include="Asset\Images\Liangfen-large.jpg" />
+    <Content Include="Asset\Images\Liangfen.jpg" />
     <Content Include="Asset\Images\Lotusroot-large.jpg" />
     <Content Include="Asset\Images\Lotusroot.jpg" />
     <Content Include="Asset\Images\Meatandtofu-large.jpg" />
     <Content Include="Asset\Images\Meatandtofu.jpg" />
+    <Content Include="Asset\Images\Paocai-large.jpg" />
+    <Content Include="Asset\Images\Paocai.jpg" />
     <Content Include="back.jpg" />
     <Content Include="Address.PNG" />
     <Content Include="backup.jpg" />
