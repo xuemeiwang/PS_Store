@@ -20,7 +20,9 @@ namespace PS_Store.Controllers
             return View(db.Specials.ToList());
         }
 
-        // GET: Specials/Details/5
+        /// <summary>
+        /// GET: Specials/Details/5
+        /// </summary>
         public ActionResult Details(int? id)
         {
             if (id == null)
