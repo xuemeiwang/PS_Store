@@ -14,7 +14,9 @@ namespace PS_Store.Controllers
     {
         private PSStoreContext db = new PSStoreContext();
 
-        // GET: Specials
+        /// <summary>
+        /// GET: Specials
+        /// </summary>
         public ActionResult Index()
         {
             return View(db.Specials.ToList());
