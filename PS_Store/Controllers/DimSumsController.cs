@@ -23,6 +23,7 @@ namespace PS_Store.Controllers
         // GET: DimSums/Details/5
         public ActionResult Details(int? id)
         {
+            // dimsums/details is not valid
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -42,8 +43,6 @@ namespace PS_Store.Controllers
         }
 
         // POST: DimSums/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Category,Name,ShortDescription,LongDescription,ThumbnailImage,FullImage,Price")] DimSum dimSum)
@@ -74,8 +73,6 @@ namespace PS_Store.Controllers
         }
 
         // POST: DimSums/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,Category,Name,ShortDescription,LongDescription,ThumbnailImage,FullImage,Price")] DimSum dimSum)

@@ -5,9 +5,10 @@
 <h2>Soups</h2>
 <p>
 </p>
+@*Show thumbnail image, name, short description & price*@
+
 <table class="table">
     <tr>
-
         <th>
             Image
         </th>
@@ -17,7 +18,6 @@
         <th>
             Short Description
         </th>
-
         <th>
             @Html.DisplayNameFor(model => model.Price)
         </th>
@@ -28,7 +28,6 @@
         <tr>
             <td>
                 <img src="@Html.DisplayFor(modelItem => item.ThumbnailImage)" alt="" />
-
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
